@@ -28,23 +28,23 @@ var lose, winning, explosionSound;
 
 function preload(){
   
-  heart1Img = loadImage("assets/electro.png")
-  heart2Img = loadImage("assets/electro2.png")
-  heart3Img = loadImage("assets/electro3.png")
+  heart1Img = loadImage("electro.png")
+  heart2Img = loadImage("electro2.png")
+  heart3Img = loadImage("electro3.png")
 
-  shooterImg = loadImage("assets/pyro-hilichurl.png")
-  shooter_shooting = loadImage("assets/pyro-hilichurl.png")
+  shooterImg = loadImage("asset/pyro-hilichurl.png")
+  shooter_shooting = loadImage("pyro-hilichurl.png")
 
-  zombieImg = loadImage("assets/lawachurl-brazohelado.png")
+  zombieImg = loadImage("lawachurl-brazohelado.png")
 
-  monedaImg = loadImage("assets/coin.png")
-  coinImg = loadImage("assets/gem.png")
+  monedaImg = loadImage("coin.png")
+  coinImg = loadImage("gem.png")
 
-  bgImg = loadImage("assets/nakumi.jpg")
+  bgImg = loadImage("nakumi.jpg")
 
-  lose = loadSound("assets/lose.mp3")
-  winning = loadSound("assets/win.mp3")
-  explosionSound = loadSound("assets/explosion.mp3")
+  lose = loadSound("lose.mp3")
+  winning = loadSound("win.mp3")
+  explosionSound = loadSound("explosion.mp3")
 
 }
 
@@ -321,7 +321,7 @@ function enemy(){
     zombie.debug= true
     zombie.setCollider("rectangle",0,0,100,100)
    
-    zombie.lifetime = 275
+    zombie.lifetime = 500
    zombieGroup.add(zombie)
   }
 }
