@@ -32,7 +32,7 @@ function preload(){
   heart2Img = loadImage("electro2.png")
   heart3Img = loadImage("electro3.png")
 
-  shooterImg = loadImage("asset/pyro-hilichurl.png")
+  shooterImg = loadImage("pyro-hilichurl.png")
   shooter_shooting = loadImage("pyro-hilichurl.png")
 
   zombieImg = loadImage("lawachurl-brazohelado.png")
